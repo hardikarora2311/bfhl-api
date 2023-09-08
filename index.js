@@ -42,7 +42,7 @@ app.post('/bfhl', (req, res) => {
       roll_number: 'RA2011003010419',
       numbers,
       alphabets,
-      highest_alphabet,
+      highestAlphabet,
     };
 
     res.status(200).json(response);
