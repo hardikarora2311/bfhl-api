@@ -12,7 +12,6 @@ app.use(cors());
 app.post('/bfhl', (req, res) => {
   try {
     const requestData = req.body.data;
-    console.log('Received Data:', requestData);
 
     // Input validation
     if (!Array.isArray(requestData)) {
